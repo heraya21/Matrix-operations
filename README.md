@@ -26,41 +26,45 @@ A Python project implementing fundamental matrix operations and linear algebra a
 
 ## Project Structure
 
+```text
 .
 ├── Matice_class.py
 ├── main.py
 └── README.md
+```
 
-**Implemented Algorithms**
-Gaussian Elimination
+## Implemented Algorithms
+
+### Gaussian Elimination
 
 The project transforms matrices into row echelon form using elementary row operations.
 
-Determinant Calculation
+### Determinant Calculation
 
 Two determinant implementations are included:
 
-Definition using permutations
-Faster computation using row operations
+- Definition using permutations
+- Faster computation using row operations
 
-Inverse Matrix
+### Inverse Matrix
 
 Inverse matrices are computed using:
-Row reduction
-Adjugate matrix method
 
-**Goals of the Project**
+- Row reduction
+- Adjugate matrix method
 
-The main objective was to develop a deeper understanding of matrix computations, elementary row operations, and determinant/inverse matrix algorithms
+## Goals of the Project
 
-**Future Improvements**
-Complete column replacement functionality
-Finish input validation utilities
-Improve error handling for invalid matrices
-Add matrix addition and matrix multiplication
-Refactor selected functions to avoid modifying matrices in-place
+The main objective was to develop a deeper understanding of matrix computations, elementary row operations, and determinant/inverse matrix algorithms.
 
-Author Jegor Geraščenko
+## Future Improvements
 
+- Complete column replacement functionality
+- Finish input validation utilities
+- Improve error handling for invalid matrices
+- Add matrix addition and matrix multiplication
+- Refactor selected functions to avoid modifying matrices in-place
 
-Created by [Your Name]
+## Author
+
+Jegor Geraščenko
